@@ -5,7 +5,7 @@ function optimalPoint($magic, $dist) {
         $curMagic = $magic[$start];
         for ($i = 0; $i < count($dist); $i++) {
             $start++;
-            if($start == count($magic)) $start = 0;
+            if($start == count($magic)) $start = 0; // for circle
             $curMagic = $curMagic + $magic[$start] - $dist[$i];
 
             if ($dist[$i] > $curMagic) {
