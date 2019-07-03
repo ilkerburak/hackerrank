@@ -1,5 +1,4 @@
 <?php
-
 function optimalPoint($magic, $dist) {
     for($start = 0; $start < count($magic); $start++){ //try count
         $curMagic = $magic[$start];
@@ -17,7 +16,6 @@ function optimalPoint($magic, $dist) {
             return $start;
         }
     }
-
     return -1;
 }
 
