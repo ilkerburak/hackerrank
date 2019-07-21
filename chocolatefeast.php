@@ -23,7 +23,7 @@ function chocolateFeast($n, $c, $m) {
             $wrapper = $wrapper - ($freeCount * $m);
             $n = $n + ($freeCount * $c);
         }
-        echo $n."\n";
     }
+    
     return $count;
 }
