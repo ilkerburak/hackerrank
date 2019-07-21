@@ -7,6 +7,13 @@ For example, Bobby has  to spend on bars of chocolate that cost  each. He can tu
 Function Description
 
 Complete the chocolateFeast function in the editor below. It must return the number of chocolates Bobby can eat after taking full advantage of the promotion.
+
+chocolateFeast has the following parameter(s):
+
+n: an integer representing Bobby's initial amount of money
+c: an integer representing the cost of a chocolate bar
+m: an integer representing the number of wrappers he can turn in for a free bar
+Note: Little Bobby will always turn in his wrappers if he has enough to get a free chocolate.
 */
 
 function chocolateFeast($n, $c, $m) {
@@ -24,6 +31,6 @@ function chocolateFeast($n, $c, $m) {
             $n = $n + ($freeCount * $c);
         }
     }
-    
+
     return $count;
 }
