@@ -8,7 +8,7 @@ function countingValleys($n, $s) {
         if($arr[$i] == "U") $arr[$i] = 1;
         if($arr[$i] == "D") $arr[$i] = -1;
     }
-    
+
     array_push($arr, 0);
     array_unshift($arr, 0);
 
