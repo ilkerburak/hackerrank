@@ -1,5 +1,5 @@
 <?php
-// https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+// https://www.hackerrank.com/challenges/breaking-best-and-worst-records
 
 function breakingRecords($scores) {
     $countHighest = 0;
